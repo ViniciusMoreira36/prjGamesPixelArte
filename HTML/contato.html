@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato — DragonBallDevolutionInfo</title>
+  <link rel="stylesheet" href="../CSS/contato.css" />
+</head>
+<body>
+
+  <!-- HEADER / NAVEGAÇÃO -->
+  <header>
+    <div class="header-inner">
+      <h1 class="logo">DragonBall<span>Devolution</span>Info</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html" class="active">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="contato-hero">
+      <h2>Entre em Contato</h2>
+      <p>Tem uma dúvida, sugestão ou quer contribuir com o site? Fale com a gente!</p>
+    </section>
+
+    <section class="contato-wrapper">
+
+      <!-- FORMULÁRIO -->
+      <div class="formulario-container">
+        <form class="formulario" action="#" method="post" novalidate>
+
+          <div class="campo">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required />
+          </div>
+
+          <div class="campo">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required />
+          </div>
+
+          <div class="campo">
+            <label for="assunto">Assunto</label>
+            <input type="text" id="assunto" name="assunto" placeholder="Sobre o que você quer falar?" required />
+          </div>
+
+          <div class="campo">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva sua mensagem aqui..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+
+        </form>
+      </div>
+
+      <!-- INFO LATERAL -->
+      <aside class="contato-info">
+        <h3>Informações de Contato</h3>
+        <ul>
+          <li>📧 <strong>E-mail:</strong> contato@dbdevolutioninfo.com</li>
+          <li>🌐 <strong>Site:</strong> www.dbdevolutioninfo.com</li>
+          <li>📱 <strong>Redes Sociais:</strong> @DBDevolutionInfo</li>
+        </ul>
+        <p>Respondemos todas as mensagens em até <strong>48 horas</strong>. Obrigado pelo contato!</p>
+      </aside>
+
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer>
+    <p>&copy; 2026 DragonBallDevolutionInfo — Todos os direitos reservados.</p>
+    <nav>
+      <ul class="footer-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+</html>
